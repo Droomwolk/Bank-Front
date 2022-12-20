@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: #12002b;
+    height: 82vh;
+    padding-top: 47px;
+}
+
+.loginContent {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    // margin: 0 auto;
+    // padding: 2rem;
+    // background-color: aquamarine;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    &__title {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    &__signInIcon  {
+        font-size: 5rem;
+        margin-bottom: 1rem;
+    }
+    &__form {
+        // background-color: darkblue;
+        &-rememberWrapper {
+            // background-color: fuchsia;
+            margin-bottom: 1rem;
+        }
+        &-signInBtn {
+            width: 100%;
+        }
+    }
+    &__signUp {
+        // background-color: coral;
+        margin-top: 1rem;
+        display: flex;
+
+        &-question {
+            font-size: small;
+        }
+        &-message {
+            font-size: small;
+            padding-left: 0.5rem;
+        }
+    }
+}

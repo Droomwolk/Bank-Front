@@ -1,0 +1,24 @@
+.compte {
+    background-color: white;
+    border: 0.2rem solid #C3CFD9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    &__argent {
+        &-price {
+            font-weight: bold;
+            font-size: xx-large;
+            margin: 1rem 0;
+        }
+    }
+    &__button {
+        &-view {
+            background-color: $purple;
+            color: white;
+            padding: 1rem;
+            font-weight: bold;
+            border-radius: 0.3rem;
+        }
+    }
+}

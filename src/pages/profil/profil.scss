@@ -1,0 +1,42 @@
+.profil {
+    background-color: #E0E6ED;
+    height: 82vh;
+    padding: 3rem 2rem;
+    &__section {
+        margin: 0 auto;
+        // background-color: aqua;
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-title {
+            margin-bottom: 1rem;
+            font-size: xx-large;
+        }
+        &-input {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            &-one {
+                display: flex;
+                flex-direction: column;
+                &-button {
+                    align-self: end;
+                    font-weight: bold;
+                }
+            }
+            &-two {
+                &-button {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    &__compte {
+        margin-top: 2rem;
+    }
+    &__button {
+        background-color: coral;
+    }
+}

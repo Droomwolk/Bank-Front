@@ -1,0 +1,31 @@
+.textInput {
+  // display: flex;
+  // flex-direction: column;
+  // width: 100%;
+  // background-color: dodgerblue;
+  // line-height: 20px;
+  // height: 48px;
+  // padding: 12px;
+  // border: 1px solid #adadad;
+  // border-radius: 2px;
+  text-align: left;
+  margin-bottom: 1rem;
+  &__label {
+  // font-size: 16px;
+  font-weight: bold;
+  // background-color: crimson;
+  }
+  &__input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    // background-color: coral;
+  // font-size: 14px;
+  // line-height: 20px;
+  // height: 48px;
+  // padding: 12px;
+  // border: 1px solid #adadad;
+  // border-radius: 2px;
+  }
+}

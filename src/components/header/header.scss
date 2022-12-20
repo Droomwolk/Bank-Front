@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: $primary-color;
+    &__logo {
+        max-width: 100%;
+        width: 200px;
+    }
+    &__authen {
+        display: flex;
+        width: 5em;
+        &-icon {
+            text-decoration: none;
+            margin-right: 0.5rem;
+        }
+        &-connect {
+            
+        }
+        &-connect:hover {
+            text-decoration: underline;
+        }
+    }
+}

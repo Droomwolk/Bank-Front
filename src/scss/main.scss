@@ -1,0 +1,17 @@
+@import '../App/App.scss';
+@import './utils/variables';
+
+@import '../components/header/header.scss';
+@import '../components/footer/footer.scss';
+@import '../components/hero/hero.scss';
+@import '../components/feature/feature.scss';
+@import '../components/form/form.scss';
+@import '../components/textInput/textInput.scss';
+@import '../components/compte/compte.scss';
+
+@import '../pages/home/home.scss';
+@import '../pages/signIn/signIn.scss';
+@import '../pages/signUp/signUp.scss';
+@import '../pages/error/errorPage.scss';
+@import '../pages/profil/profil.scss';
+@import '../pages/transaction/transaction.scss';

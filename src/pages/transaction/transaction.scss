@@ -1,0 +1,21 @@
+.transaction {
+    background-color: #E0E6ED;
+    height: 82vh;
+    // justify-content: center;
+    // align-items: center;
+    &__argent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: 0.1rem solid #C3CFD9;
+        width: 100%;
+        padding: 2rem 0;
+        &-price {
+            font-weight: bold;
+            font-size: xx-large;
+            margin: 1rem 0;
+        }
+    }
+}
